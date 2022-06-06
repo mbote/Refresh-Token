@@ -1,0 +1,20 @@
+{
+  "name": "Refresh-Token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mbote/Refresh-Token.git",
+  "author": "mbote <mbotepm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "prisma": "^3.14.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
